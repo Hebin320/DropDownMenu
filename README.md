@@ -1,10 +1,14 @@
 # DropDownMenu
 
+
 This is an example of using DropDownMenu in actual operation,you can learn how to use custom view or fragment in DropDownMenu,and also can learn how to reuse the view or fragment.
 
+**Preview**
+----------
+
+**[DemoAPK DownLoad](https://github.com/Hebin320/ImageSave/blob/master/apk/dropdownmenu.apk)**
+
 ![imge](https://github.com/Hebin320/ImageSave/blob/master/img/dropdownmenu.gif)
-
-
 
 
 
