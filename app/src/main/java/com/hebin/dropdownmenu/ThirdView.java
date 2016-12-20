@@ -43,6 +43,18 @@ public class ThirdView extends Fragment {
         ButterKnife.reset(this);
     }
 
+    public void setDifferentUse(String tag){
+        switch (tag){
+            case "four":
+                tv01.setText("复用界面的第一个文本");
+                tv02.setText("复用界面的第二个文本");
+                tv03.setText("复用界面的第三个文本");
+                break;
+            default:
+                break;
+        }
+    }
+
     @OnClick({R.id.tv_01, R.id.tv_02, R.id.tv_03})
     public void onClick(View view) {
         switch (view.getId()) {

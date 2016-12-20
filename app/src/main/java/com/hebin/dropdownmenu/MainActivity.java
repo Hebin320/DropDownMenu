@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements MyItemClickListen
     DropDownMenu mDropDownMenu;
 
 
-    private String headers[] = {"界面一", "界面二","界面三"};
+    private String headers[] = {"界面一", "界面二","界面三","界面四"};
     private List<View> popupViews = new ArrayList<>();
     private TextView tvText;
 
@@ -53,7 +53,16 @@ public class MainActivity extends AppCompatActivity implements MyItemClickListen
         View thirdView = LayoutInflater.from(MainActivity.this).inflate(R.layout.layout_third, null);
         ThirdView fragment = (ThirdView) getSupportFragmentManager().findFragmentById(R.id.fg_third);
         fragment.setListener(this);
+        fragment.setDifferentUse("third");
         popupViews.add(thirdView);
+        /**
+        * 第四个界面
+        * */
+        View fourView = LayoutInflater.from(MainActivity.this).inflate(R.layout.layout_four, null);
+        ThirdView fragment_01 = (ThirdView) getSupportFragmentManager().findFragmentById(R.id.fg_four);
+        fragment_01.setListener(this);
+        fragment_01.setDifferentUse("four");
+        popupViews.add(fourView);
 
         /**
         * Dropdownmenu下面的主体部分
