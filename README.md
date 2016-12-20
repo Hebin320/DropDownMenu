@@ -6,7 +6,7 @@ This is an example of using DropDownMenu in actual operation,you can learn how t
 **Preview**
 ----------
 
-**[DemoAPK DownLoad](https://github.com/Hebin320/ImageSave/blob/master/apk/dropdownmenu.apk)**
+**[DemoAPK DownLoad](https://raw.githubusercontent.com/Hebin320/ImageSave/master/apk/dropdownmenu.apk)**
 
 ![imge](https://github.com/Hebin320/ImageSave/blob/master/img/dropdownmenu.gif)
 
