@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.hebin.dropdownmenu.ThirdView">
+
+    <TextView
+        android:id="@+id/tv_01"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="TextView_01"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv_02"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="TextView_02"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv_03"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="TextView_03"
+        android:gravity="center"
+        />
+
+</LinearLayout>
